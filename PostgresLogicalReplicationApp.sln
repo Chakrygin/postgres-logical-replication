@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgresLogicalReplicationApp.Timeouts", "PostgresLogicalReplicationApp.Timeouts\PostgresLogicalReplicationApp.Timeouts.csproj", "{003FBA68-2DAD-4682-B788-C976C7152099}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{94F90DF3-A249-47BE-8F83-722AA5C1C3A3}"
+ProjectSection(SolutionItems) = preProject
+	docker-compose.yml = docker-compose.yml
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{003FBA68-2DAD-4682-B788-C976C7152099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003FBA68-2DAD-4682-B788-C976C7152099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003FBA68-2DAD-4682-B788-C976C7152099}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{003FBA68-2DAD-4682-B788-C976C7152099}.Debug|x64.Build.0 = Debug|Any CPU
+		{003FBA68-2DAD-4682-B788-C976C7152099}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{003FBA68-2DAD-4682-B788-C976C7152099}.Debug|x86.Build.0 = Debug|Any CPU
+		{003FBA68-2DAD-4682-B788-C976C7152099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003FBA68-2DAD-4682-B788-C976C7152099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{003FBA68-2DAD-4682-B788-C976C7152099}.Release|x64.ActiveCfg = Release|Any CPU
+		{003FBA68-2DAD-4682-B788-C976C7152099}.Release|x64.Build.0 = Release|Any CPU
+		{003FBA68-2DAD-4682-B788-C976C7152099}.Release|x86.ActiveCfg = Release|Any CPU
+		{003FBA68-2DAD-4682-B788-C976C7152099}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
